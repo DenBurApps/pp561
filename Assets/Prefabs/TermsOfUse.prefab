@@ -299,6 +299,7 @@ GameObject:
   - component: {fileID: 8721946972393276899}
   - component: {fileID: 8257039451394505569}
   - component: {fileID: 667163427143534028}
+  - component: {fileID: 8087262946971268629}
   m_Layer: 5
   m_Name: Terms
   m_TagString: Untagged
@@ -322,8 +323,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 18519}
+  m_AnchoredPosition: {x: 588.1888, y: 0}
+  m_SizeDelta: {x: 1176.0013, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &8257039451394505569
 CanvasRenderer:
@@ -353,108 +354,112 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Please read these terms and conditions carefully before using Our Service.
+  m_text: 'Last updated: November 20, 2024
 
 
+
+    Please read these terms and conditions
+    carefully before using Our Service.
+
+
+
+    Interpretation and Definitions
 
     Interpretation
-    and Definitions
 
-    Interpretation
-
-    The words of which the initial letter
-    is capitalized have meanings defined under the following conditions. The following
-    definitions shall have the same meaning regardless of whether they appear in
-    singular or in plural.
+    The
+    words of which the initial letter is capitalized have meanings defined under
+    the following conditions. The following definitions shall have the same meaning
+    regardless of whether they appear in singular or in plural.
 
 
 
     Definitions
 
-    For the purposes of these Terms
-    and Conditions:
+    For
+    the purposes of these Terms and Conditions:
 
 
 
-    Application means the software program provided by the
-    Company downloaded by You on any electronic device, named Car Assist: Track Fuel
+    Application means the software
+    program provided by the Company downloaded by You on any electronic device, named
+    Library Ease
 
 
 
-    Application
-    Store means the digital distribution service operated and developed by Apple
-    Inc. (Apple App Store) or Google Inc. (Google Play Store) in which the Application
-    has been downloaded.
+    Application Store means the digital distribution service
+    operated and developed by Apple Inc. (Apple App Store) or Google Inc. (Google
+    Play Store) in which the Application has been downloaded.
 
 
 
-    Affiliate means an entity that controls, is controlled
-    by or is under common control with a party, where "control" means ownership of
-    50% or more of the shares, equity interest or other securities entitled to vote
-    for election of directors or other managing authority.
+    Affiliate means
+    an entity that controls, is controlled by or is under common control with a party,
+    where "control" means ownership of 50% or more of the shares, equity interest
+    or other securities entitled to vote for election of directors or other managing
+    authority.
 
 
 
-    Country refers
-    to: Arizona, United States
+    Country refers to: Alaska, United States
 
 
 
-    Company (referred to as either "the Company",
-    "We", "Us" or "Our" in this Agreement) refers to Car Assist: Track Fuel.
+    Company (referred
+    to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to
+    Library Ease.
 
 
 
-    Device
-    means any device that can access the Service such as a computer, a cellphone
-    or a digital tablet.
+    Device means any device that can access the Service such
+    as a computer, a cellphone or a digital tablet.
 
 
 
-    Service refers to the Application.
+    Service refers to the
+    Application.
 
 
 
-    Terms and
-    Conditions (also referred as "Terms") mean these Terms and Conditions that form
-    the entire agreement between You and the Company regarding the use of the Service.
-    This Terms and Conditions agreement has been created with the help of the Free
-    Terms and Conditions Generator.
+    Terms and Conditions (also referred as "Terms") mean these
+    Terms and Conditions that form the entire agreement between You and the Company
+    regarding the use of the Service. This Terms and Conditions agreement has been
+    created with the help of the Free Terms and Conditions Generator.
 
 
 
-    Third-party Social Media Service means
-    any services or content (including data, information, products or services) provided
-    by a third-party that may be displayed, included or made available by the Service.
+    Third-party
+    Social Media Service means any services or content (including data, information,
+    products or services) provided by a third-party that may be displayed, included
+    or made available by the Service.
 
 
 
-    You
-    means the individual accessing or using the Service, or the company, or other
-    legal entity on behalf of which such individual is accessing or using the Service,
-    as applicable.
+    You means the individual accessing or
+    using the Service, or the company, or other legal entity on behalf of which such
+    individual is accessing or using the Service, as applicable.
 
 
 
     Acknowledgment
 
-    These are the Terms and Conditions
-    governing the use of this Service and the agreement that operates between You
-    and the Company. These Terms and Conditions set out the rights and obligations
-    of all users regarding the use of the Service.
+    These
+    are the Terms and Conditions governing the use of this Service and the agreement
+    that operates between You and the Company. These Terms and Conditions set out
+    the rights and obligations of all users regarding the use of the Service.
 
 
 
-    Your access to and use
-    of the Service is conditioned on Your acceptance of and compliance with these
-    Terms and Conditions. These Terms and Conditions apply to all visitors, users
-    and others who access or use the Service.
+    Your
+    access to and use of the Service is conditioned on Your acceptance of and compliance
+    with these Terms and Conditions. These Terms and Conditions apply to all visitors,
+    users and others who access or use the Service.
 
 
 
-    By accessing or using the Service
-    You agree to be bound by these Terms and Conditions. If You disagree with any
-    part of these Terms and Conditions then You may not access the Service.
+    By accessing or using
+    the Service You agree to be bound by these Terms and Conditions. If You disagree
+    with any part of these Terms and Conditions then You may not access the Service.
 
 
 
@@ -674,7 +679,7 @@ MonoBehaviour:
 
 
     By
-    email: w63044073@gmail.com'
+    email: ruslananohin.01@icloud.com'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a17adde7dfadbcb4a8b6423131b0f23b, type: 2}
   m_sharedMaterial: {fileID: -5747107925767127293, guid: a17adde7dfadbcb4a8b6423131b0f23b, type: 2}
@@ -701,10 +706,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 43.15
-  m_fontSizeBase: 46.5
+  m_fontSize: 45
+  m_fontSizeBase: 45
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -743,6 +748,20 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &8087262946971268629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5613744731328188672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalFit: 0
+  m_VerticalFit: 2
 --- !u!1 &6266380224034962199
 GameObject:
   m_ObjectHideFlags: 0
@@ -1056,7 +1075,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.00091552734}
+  m_AnchoredPosition: {x: 0, y: 0.0007324219}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &7696975262152390932

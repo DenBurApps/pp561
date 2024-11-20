@@ -14174,7 +14174,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 39.15
+  m_fontSize: 43.2
   m_fontSizeBase: 52
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -24894,7 +24894,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 35.4
+  m_fontSize: 39.05
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -26087,7 +26087,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 58.9
+  m_fontSize: 64.95
   m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -46788,7 +46788,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 62.55
+  m_fontSize: 66.85
   m_fontSizeBase: 52
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -50580,7 +50580,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 112.85
+  m_fontSize: 110.3
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -57177,7 +57177,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40.1
+  m_fontSize: 44.2
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -81047,6 +81047,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TermsOfUse
       objectReference: {fileID: 0}
+    - target: {fileID: 4138949171980215399, guid: a441677d32efd9e41b43f9ab42ebc41a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4360810954166756974, guid: a441677d32efd9e41b43f9ab42ebc41a, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -81157,11 +81161,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8721946972393276899, guid: a441677d32efd9e41b43f9ab42ebc41a, type: 3}
       propertyPath: m_SizeDelta.x
+      value: 896.6474
+      objectReference: {fileID: 0}
+    - target: {fileID: 8721946972393276899, guid: a441677d32efd9e41b43f9ab42ebc41a, type: 3}
+      propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8721946972393276899, guid: a441677d32efd9e41b43f9ab42ebc41a, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 448.46713
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -81403,7 +81411,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4226253526180353659, guid: ddebe6575550f2a4bbabfda5dbe5b827, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 2510.2869
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5761901122261978916, guid: ddebe6575550f2a4bbabfda5dbe5b827, type: 3}
       propertyPath: m_Name
@@ -81419,11 +81427,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7118291123298742630, guid: ddebe6575550f2a4bbabfda5dbe5b827, type: 3}
       propertyPath: m_SizeDelta.x
+      value: 896.6474
+      objectReference: {fileID: 0}
+    - target: {fileID: 7118291123298742630, guid: ddebe6575550f2a4bbabfda5dbe5b827, type: 3}
+      propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7118291123298742630, guid: ddebe6575550f2a4bbabfda5dbe5b827, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 448.46713
       objectReference: {fileID: 0}
     - target: {fileID: 7118291123298742630, guid: ddebe6575550f2a4bbabfda5dbe5b827, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -81461,6 +81473,10 @@ PrefabInstance:
     - target: {fileID: 1747367885172763992, guid: aea88544cb6e7784aab15057b6bbe7bd, type: 3}
       propertyPath: m_Name
       value: Version
+      objectReference: {fileID: 0}
+    - target: {fileID: 1747367885172763992, guid: aea88544cb6e7784aab15057b6bbe7bd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8360824419681103179, guid: aea88544cb6e7784aab15057b6bbe7bd, type: 3}
       propertyPath: m_Color.b
