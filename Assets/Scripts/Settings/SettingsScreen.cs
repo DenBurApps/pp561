@@ -12,7 +12,7 @@ public class SettingsScreen : MonoBehaviour
     [SerializeField] private TermsOfUseView _termsOfUseView;
     [SerializeField] private ScreenStateManager _screenStateManager;
     
-    private string _email = "w63044073@gmail.com";
+    private string _email = "ruslananohin.01@icloud.com";
 
     public event Action BackButtonClicked;
     public event Action SettingsDisabled;

@@ -193,6 +193,12 @@ public class MainScreen : MonoBehaviour
 
     private void SearchBook(string search)
     {
+        if (string.IsNullOrEmpty(search))
+        {
+            EnableAllWindows();
+            return;
+        }
+        
         string adaptedSearch = search.ToLower();
 
         foreach (var bookPlane in _bookPlanes)
