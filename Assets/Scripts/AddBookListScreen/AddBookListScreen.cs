@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Linq;
 
 public class AddBookListScreen : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class AddBookListScreen : MonoBehaviour
     [SerializeField] private List<BookListBookElement> _bookElements;
     [SerializeField] private MainScreen _mainScreen;
     [SerializeField] private ScreenStateManager _screenStateManager;
+    [SerializeField] private GameObject _noBooksPopup;
 
     private List<int> _availableIndexes = new List<int>();
 
@@ -23,6 +25,7 @@ public class AddBookListScreen : MonoBehaviour
     {
         _view.Disable();
         DisableAllWindows();
+        _noBooksPopup.SetActive(false);
     }
 
     private void OnEnable()
@@ -73,21 +76,31 @@ public class AddBookListScreen : MonoBehaviour
             }
         }
 
-        foreach (var plane in _bookElements)
-        {
-            if (plane.IsActive)
-            {
-                _elementFound = true;
-            }
-        }
+        _elementFound = _bookElements.Any(plane => plane.IsActive);
 
-        if (!_elementFound)
+        if (!_elementFound || _bookElements.Count(element => element.IsActive) < 2)
         {
-            _view.ToggleEmptyListImage(true);
+            ShowNoBooksPopup();
         }
         else
         {
-            _view.ToggleEmptyListImage(false);
+            if (_noBooksPopup.activeSelf)
+                _noBooksPopup.SetActive(false);
+        }
+
+
+        _view.ToggleEmptyListImage(!_elementFound);
+    }
+
+    private void ShowNoBooksPopup()
+    {
+        // Using a PopupManager
+        //_popupManager.ShowPopup("Cannot Create Book List", "You need to create at least one book before creating a book list.");
+
+        // OR, using a simple GameObject
+        if (_noBooksPopup != null)
+        {
+            _noBooksPopup.SetActive(true);
         }
     }
 
